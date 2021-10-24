@@ -80,13 +80,13 @@ body {
     background: url('../images/background1.jpg');
     background-color: #000;
     background-position: center;
-    background-repeat: initial;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 #hero-outer {
     height: 850px;
     width: 100%;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
 }
