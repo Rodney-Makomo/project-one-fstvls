@@ -1,7 +1,6 @@
 /* import for the google font*/
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -13,11 +12,8 @@ body {
     font-weight: 250;
     color: black;
 }
-/*headings and logo*/
 
-#menu, #logo { 
-    line-height: 25px;
-}
+/*headings and logo*/
 
 h1, h2 {
     font-family: Contrail One, sans-serif;
@@ -28,15 +24,17 @@ h1, h2 {
 
 #logo {
     text-align: center;
-    font-size: 200%;
-    margin-top: 10px;
+    font-size: 500%;
+    margin-top: 5px;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
 #menu {
-    font-size: 100%;
-    letter-spacing: 3px;
+    font-size: 125%;
     text-align: center;
+    margin-top: 5px;
+    line-height: 25px;
 }
 
 #menu li {
@@ -44,6 +42,7 @@ h1, h2 {
     display: block;
     float: none;
     text-transform: uppercase;
+    margin: none;
 }
 
 #menu a {
@@ -59,13 +58,18 @@ a {
     text-decoration: none;
 }
 
-/* Body image and background*/
+/* Hero image and background*/
 body {
-    background-image: url('../images/background1.jpg');
     background-color: #000;
     height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#cover-text, #cover-text h2{
+    color: white;
+    letter-spacing: normal;
+    text-transform: none;
 }
