@@ -90,3 +90,21 @@ body {
     overflow: auto;
     position: relative;
 }
+
+/*fstvl about sections*/
+
+.fstvl-content{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    width: 33%;
+    float: none;
+}
+
+#parklife-landscape{
+    color: white;
+    width: 99%;
+    background-color: green;
+    float: none;
+    margin: 0% 0.5%;
+}
