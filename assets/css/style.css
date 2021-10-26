@@ -108,3 +108,50 @@ body {
     float: none;
     margin: 0% 0.5%;
 }
+
+/*footer and social links*/
+
+footer {
+    height: 150px;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links > li{
+    display: inline;
+    height: 75px;
+}
+
+.social-links i{
+    font-size: 175%;
+    margin: 2%;
+    padding: 5%;
+    color:#ff1a75;
+}
+
+/* Sign up form*/
+
+.form-section{
+    clear: left;
+    /*background image here
+    background: url()*/
+    background-size: cover;
+    height:900px;
+}
+
+.signup-form{
+    margin: 150px 10% 0 0;
+    color: white;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
