@@ -135,8 +135,7 @@ footer {
 
 .form-section{
     clear: left;
-    /*background image here
-    background: url()*/
+    background: url('../images/background3.jpg');
     background-size: cover;
     background-position: cover;
     height:900px;
@@ -185,3 +184,5 @@ footer {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+/*Continue altering image and adding opacity*/
