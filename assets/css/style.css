@@ -35,6 +35,7 @@ h1, h2 {
     text-align: center;
     margin-top: 5px;
     line-height: 25px;
+    font-family: sans-serif;
 }
 
 #menu li {
@@ -51,7 +52,7 @@ h1, h2 {
 }
 
 #menu a:hover {
-    text-decoration: underline wavy #ff1a75;
+    text-decoration: underline #ff1a75;
 }
 
 a {
@@ -73,7 +74,7 @@ body {
     letter-spacing: normal;
     text-transform: none;
 }
-
+/*
 #hero-image {
     height: 850px;
     width: 100%;
@@ -83,13 +84,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
+
+#hero-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#hero-image::before {
+    content: "";
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+}
 
 #hero-outer {
     height: 850px;
     width: 100%;
     overflow: auto;
     position: relative;
+    text-align: center;
+    margin-top: 25%;
 }
+
 
 /*fstvl about sections*/
 
@@ -103,7 +126,7 @@ body {
 
 #parklife-landscape{
     color: white;
-    width: 99%;
+    width: 100%;
     background-color: green;
     float: none;
     margin: 0% 0.5%;
