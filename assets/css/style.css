@@ -74,6 +74,14 @@ body {
     letter-spacing: normal;
     text-transform: none;
 }
+
+#cover-text h2{
+    font-size: 250%;
+}
+
+#cover-text h3 {
+    font-size: 200%;
+}
 /*
 #hero-image {
     height: 850px;
@@ -110,9 +118,13 @@ body {
     overflow: auto;
     position: relative;
     text-align: center;
-    margin-top: 25%;
 }
 
+#cover-text{
+    margin:auto;
+    width: 75%;
+    padding: 250px 0;
+}
 
 /*fstvl about sections*/
 
