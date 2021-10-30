@@ -15,7 +15,7 @@ body {
 
 /*headings and logo*/
 
-#logo, #menu li{
+#logo, #menu{
     line-height: 75px;
 }
 
@@ -150,8 +150,8 @@ body {
     display: inline-block;
     color: white;
     background-color: red;
-    width: 33%;
-    float: none;
+    position: relative;
+    
 }
 
 #parklife-landscape{
@@ -166,11 +166,39 @@ body {
 
 .fstvl-content h2{
     color: #fff;
+    letter-spacing: normal;
 }
 
 .fstvl-content p{
     font-family: Source Sans Pro, sans-serif;
     font-size: large;
+}
+
+#parklife{
+    padding-top: 5px;
+    float: left;
+    width: 30%;
+    margin-left: 10px;
+}
+
+#glastonbury{
+    padding-top: 5px;
+    float: right;
+    padding-right: 5px;
+    width: 30%;
+}
+
+#leeds{
+    padding-top: 5px;
+    margin: 0 2.5%;
+    width: 33%;
+    float: none;
+}
+
+hr{
+    border-top: 2px solid #fafafa;
+    width: 100%;
+    margin: 2.5px 0;
 }
 
 /*footer and social links*/
@@ -227,6 +255,7 @@ footer {
     position: absolute;
     left: 10%;
     padding: 30px;
+    font-size: 125%;
 }
 
 .signup-form > h2{
@@ -263,4 +292,11 @@ footer {
 .join-button:hover{
     background-color: #fafafa;
     color: #ff1a75;
+}
+
+/*Media queries*/
+/*For larger to medium screens; 1200px wide and down*/
+
+@media  (max-width: 1200px) {
+    
 }
