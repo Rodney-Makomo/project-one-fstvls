@@ -1,5 +1,5 @@
 /* import for the google font*/
-@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Source+Sans+Pro&display=swap');
 
 *{
     margin: 0;
@@ -15,10 +15,14 @@ body {
 
 /*headings and logo*/
 
+#logo, #menu li{
+    line-height: 75px;
+}
+
 h1, h2 {
     font-family: Contrail One, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     color: #ff1a75;
 }
 
@@ -28,22 +32,26 @@ h1, h2 {
     margin-top: 5px;
     text-decoration: none;
     margin-bottom: 5px;
+    display: block;
 }
 
 #menu {
-    font-size: 125%;
-    text-align: center;
+    font-size: 200%;
     margin-top: 5px;
-    line-height: 25px;
-    font-family: sans-serif;
+    font-family: Source Sans Pro, sans-serif;
+    text-align: right;
 }
 
 #menu li {
-    list-style-type: none;
-    display: block;
     float: none;
+    list-style-type: none;
+    display: inline;
     text-transform: uppercase;
-    margin: none;
+    margin-right: 30px;
+}
+
+#mene ul{
+    display: inline-block;
 }
 
 #menu a {
@@ -52,6 +60,16 @@ h1, h2 {
 }
 
 #menu a:hover {
+    text-decoration: underline #fff;
+    color: #fff;
+}
+
+#cover-text a {
+    text-decoration: none;
+    color: #ff1a75;
+}
+
+#cover-text a:hover {
     text-decoration: underline #ff1a75;
 }
 
@@ -137,11 +155,22 @@ body {
 }
 
 #parklife-landscape{
-    color: white;
+    background-color: #000;
+    background-image: url("../images/about2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    background-color: green;
-    float: none;
-    margin: 0% 0.5%;
+    height: 700px;
+}
+
+.fstvl-content h2{
+    color: #fff;
+}
+
+.fstvl-content p{
+    font-family: Source Sans Pro, sans-serif;
+    font-size: large;
 }
 
 /*footer and social links*/
@@ -235,4 +264,3 @@ footer {
     background-color: #fafafa;
     color: #ff1a75;
 }
-
