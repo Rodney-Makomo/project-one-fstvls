@@ -316,10 +316,20 @@ footer {
 /*For medium screen sizes from 950px wide and down*/
 @media screen and (max-width:950px) {
     #menu{
-         clear: left;
+        clear: both;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px; 
+    }
+
+    #parklife-landscape, #hero-image, .form-image{
+        margin-top: 45px;
+    }
+
+    #parklife-about {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
     }
 }
