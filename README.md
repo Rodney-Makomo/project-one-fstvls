@@ -31,14 +31,28 @@ Features
 
 Bugs
 
-
+ - There were no bugs found
 
 Validator Testing:
 
 HTML
 - I found that I had duplicate sections in my about.html so I deleted them
 - There were no other errors found in my index.html, about.html and sign-up.html
+![](assets/images/html.JPG)
 
 CSS
     - There were no errors found in my CSS stylesheet
     http://jigsaw.w3.org/css-validator/validator$link
+![](assets/images/csstest.JPG)
+
+Lighthouse
+- My perfomance rating had problems due to the extensions I have on google chrome
+- There were no other problems and my scores were nearly all at 100
+- you can also see how the site looks on a mobile phone
+![](assets/images/lighthousetest.JPG)
+
+Unfixed bugs
+- Bug on google chrome that limits lighthouse from perming properly
+
+Deployment
+- 
