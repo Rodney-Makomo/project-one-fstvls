@@ -38,7 +38,7 @@ Validator Testing:
 HTML
 - I found that I had duplicate sections in my about.html so I deleted them
 - There were no other errors found in my index.html, about.html and sign-up.html
-![](assets/images/html.JPG)
+![](assets/images/htmltest.JPG)
 
 CSS
     - There were no errors found in my CSS stylesheet
@@ -55,4 +55,20 @@ Unfixed bugs
 - Bug on google chrome that limits lighthouse from perming properly
 
 Deployment
-- 
+- The site was deployed to GitHup pages. The steps to deploy are
+    - In the GitHub Repository, navigate to settings and choose pages.
+    - From the source section drop-down menu, choose the master branch
+    - Link is provided once master branched has been selected and the page refreshes
+
+![](assets/images/amiresponsive.JPG)
+
+Credits
+    Content
+    - the code to make the social media links was take from CI Love Running Project
+
+    Media
+    - All the pictures used were taken from pexels.
+
+    Icons
+    - Icons used were taken from Font Awesome
+
