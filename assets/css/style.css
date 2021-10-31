@@ -97,7 +97,7 @@ body {
     font-size: 250%;
 }
 
-#cover-text h3 {
+#cover-text p {
     font-size: 200%;
 }
 /*
@@ -347,7 +347,7 @@ footer {
         text-align: center;
     }
 
-    #cover-text h3{
+    #cover-text p{
         padding: 10px 0;
     }
 }
